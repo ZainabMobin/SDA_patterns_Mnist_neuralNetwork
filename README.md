@@ -47,9 +47,15 @@ Made public static methods of MatrixOperations class public only, and loaded Mat
 
 ## Applied UML Diagrams
 
-**Singleton(DataReader children) and Adapter(ReaderAdapter children)**
+**Singleton(DataReader children)**
 
-![Singleton & Adapter](img/adapter_singleton.drawio.png)
+![Singleton](img/reader_singleton.drawio.png)
+
+
+**Adapter(ReaderAdapter children)**
+
+![Adapter](img/adapter_singleton.drawio.png)
+
 
 **Singleton (Mathematical Operations)**
 

@@ -1,5 +1,4 @@
-## Adapter and Singleton pattern on reader classes
-
+## Adapter, AdapterFactory and Singleton pattern Implementation
 
 **Reference Type (The Variable)**: This is just a "handle" or a "remote control." It defines what methods you are allowed to call.
 
@@ -39,6 +38,10 @@ Example: "The Singleton Adapter" (or rather, the Reusable Adapter)
 
  Obtained from: https://github.com/fgnt/mnist
 
+## AdapterFactory pattern on ReaderAdapter
+
+Management of individual adapters is handled by the AdapterFactory, which creates and provides access to the appropriate adapter based on the file type. This allows for a clean separation of concerns and promotes code reusability.
+
 
 ## Singleton pattern on MatrixOperations class
 
@@ -52,7 +55,7 @@ Made public static methods of MatrixOperations class public only, and loaded Mat
 ![Singleton](img/reader_singleton.drawio.png)
 
 
-**Adapter(ReaderAdapter children)**
+**Adapter(ReaderAdapter children) and AdapterFactory(ReaderAdapter)**
 
 ![Adapter](img/adapter_singleton.drawio.png)
 
